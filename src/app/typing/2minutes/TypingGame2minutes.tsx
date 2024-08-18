@@ -1,5 +1,5 @@
 "use client";
-import Data from "../../data.json";
+import Data from "../../../../data.json";
 import { useState, useEffect } from "react";
 
 export default function TypingGame() {
