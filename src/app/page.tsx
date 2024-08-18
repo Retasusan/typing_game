@@ -1,11 +1,17 @@
-import Image from "next/image";
+import dynamic from "next/dynamic";
+
+const TypingGame = dynamic(() => import("./TypingGame"), { ssr: false });
 
 export default function Home() {
   return (
     <main>
-      <div className="text-center">
-        <h1>Typing game</h1>
-        <p>test description.</p>
+      <div className="">
+        <div className="">
+          <h1 className="text-5xl mb-20 p-7 border-none bg-gradient-to-r from-sky-500 to-indigo-500">
+            タイピングゲーム
+          </h1>
+        </div>
+        <TypingGame />
       </div>
     </main>
   );

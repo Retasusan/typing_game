@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "word": "hello"
+  },
+  {
+    "id": 1,
+    "word": "world"
+  },
+  {
+    "id": 2,
+    "word": "dragon"
+  },
+  {
+    "id": 3,
+    "word": "ball"
+  },
+  {
+    "id": 4,
+    "word": "return"
+  },
+  {
+    "id": 5,
+    "word": "inquire"
+  },
+  {
+    "id": 6,
+    "word": "requires"
+  },
+  {
+    "id": 7,
+    "word": "asynchronous"
+  },
+  {
+    "id": 8,
+    "word": "await"
+  },
+  {
+    "id": 9,
+    "word": "promise"
+  }
+]
