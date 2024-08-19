@@ -7,7 +7,7 @@ const TypingGame = dynamic(() => import("../..//TypingGame"), { ssr: false });
 export default function Home() {
   return (
     <main>
-      <div className="bg-[#e3f3f9] h-[1000px]">
+      <div className="bg-gradient-to-b from-[#e3f3f9] to-[#58d0fc] h-[1000px]">
         <Header />
         <TypingGame />
       </div>
