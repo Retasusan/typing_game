@@ -56,6 +56,7 @@ export default function TypingGame() {
           }
         }
       } else {
+        event.preventDefault();
         setIncorrect((prev) => prev + 1);
       }
     };

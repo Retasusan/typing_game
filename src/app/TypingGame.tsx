@@ -1,6 +1,7 @@
 "use client";
 import Data from "../../data.json";
 import { useState, useEffect } from "react";
+import { typingFont } from "../../font/typingFont";
 
 export default function TypingGame() {
   const [numb, setNumb] = useState(0);
@@ -67,12 +68,14 @@ export default function TypingGame() {
 
   return (
     <div>
-      <div className="w-4/5 h-[600px] pt-[50px] mx-auto justify-center items-center text-centerborder-none bg-gradient-to-b from-slate-500 to-indigo-500 max-w-[1000px] min-w-[600px]">
-        <div className="w-4/5 h-[250px] mx-auto bg-gradient-to-tr from-sky-400 to-orange-400 pt-[80px]">
+      <div
+        className={`${typingFont.className} w-4/5 h-[600px] pt-[50px] mx-auto justify-center items-center text-centerborder-none max-w-[1000px] min-w-[600px] shadow-xl bg-white rounded-2xl`}
+      >
+        <div className="w-4/5 h-[230px] mx-auto pt-[80px]">
           {/* <p className="text-3xl">number:{data.id}</p> */}
-          <p className="text-6xl text-center mt-[15px]">{data.word}</p>
+          <p className="text-6xl text-center">{data.word}</p>
         </div>
-        <div className="w-4/5 mt-[40px] h-[200px] mx-auto border-none bg-gradient-to-b from-slate-400 to-slate-100">
+        <div className="w-4/5 h-[250px] mx-auto border-solid border-2 border-[#b9e4ed] rounded-3xl shadow-xl">
           <p className=" pt-[65px] text-6xl text-center">{inputWord}</p>
         </div>
       </div>
