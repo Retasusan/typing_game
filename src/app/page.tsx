@@ -17,13 +17,13 @@ export default function Home() {
           <div className="flex flex-col gap-10 mt-10">
             <div className="flex flex-row w-[75%] mx-auto justify-between">
               <Link
-                href="/typing/1minute"
+                href="/1minute"
                 className={`${font.className} w-[40%] mx-auto text-[25px] border-solid min-w-[200px] max-w-[300px] text-center h-[70px] flex items-center justify-center bg-[#93d3e0] rounded-lg text-white hover:bg-[#85d5e6] transition transform hover:-translate-y-1 hover:shadow-lg`}
               >
                 1 minute
               </Link>
               <Link
-                href="/typing/3minutes"
+                href="/3minutes"
                 className={`${font.className} w-[40%] mx-auto text-[25px] border-solid min-w-[200px] max-w-[300px] text-center h-[70px] flex items-center justify-center bg-[#fab2aa] rounded-lg text-white hover:bg-[#fbaba2] transition transform hover:-translate-y-1 hover:shadow-lg`}
               >
                 3 minutes
@@ -31,13 +31,13 @@ export default function Home() {
             </div>
             <div className="flex flex-row w-[75%] mx-auto justify-between">
               <Link
-                href="/typing/5minutes"
+                href="/5minutes"
                 className={`${font.className} w-[40%] mx-auto text-[25px] border-solid min-w-[200px] max-w-[300px] text-center h-[70px] flex items-center justify-center bg-[#f7d28e] rounded-lg text-white hover:bg-[#fbd48c] transition transform hover:-translate-y-1 hover:shadow-lg`}
               >
                 5 minutes
               </Link>
               <Link
-                href="/typing/endless"
+                href="/endless"
                 className={`${font.className} w-[40%] mx-auto text-[25px] border-solid min-w-[200px] max-w-[300px] text-center h-[70px] flex items-center justify-center bg-[#b3e097] rounded-lg text-white hover:bg-[#a7da88] transition transform hover:-translate-y-1 hover:shadow-lg`}
               >
                 endless
