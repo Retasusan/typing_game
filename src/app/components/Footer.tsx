@@ -2,7 +2,7 @@ import { niceFont } from "../../../font/niceFont";
 export default function Footer() {
   return (
     <div
-      className={`${niceFont.className} h-[125px] bg-gradient-to-b from-[#eadabd] to-[#fcdca0] pt-5 pl-5`}
+      className={`${niceFont.className} h-[125px] bg-gradient-to-b from-[#eadabd] to-[#fcdca0] pt-5 pl-5 min-w-[600px]`}
     >
       <p>This application is created by Retasusan</p>
       <a
