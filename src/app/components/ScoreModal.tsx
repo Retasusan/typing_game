@@ -38,7 +38,7 @@ export default function ScoreModal({ isFinished, correct, wrong, wpm }: Props) {
   };
 
   return (
-    <div className="w-full h-full absolute">
+    <div className="w-full h-full absolute z-50">
       {isOpen && (
         <div className="w-full h-full flex justify-center items-center">
           <div className="w-4/5 h-[70%] bg-[#e4d8fc] rounded-2xl border-solid border-2 border-slate-400">

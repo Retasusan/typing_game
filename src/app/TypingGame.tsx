@@ -108,13 +108,25 @@ export default function TypingGame({ time }: Props) {
           >
             {typeof time === "number" ? time - seconds + "sec" : "no limit"}
           </p>
-          <p className="text-6xl text-center mt-[20px]">
+          <p
+            className={
+              data.id === 0
+                ? "text-5xl text-center mt-[70px] animate-poyopoyo"
+                : "text-6xl text-center mt-[50px]"
+            }
+          >
             {isFinished ? "" : data.word}
           </p>
         </div>
-        <div className="mt-[50px] w-4/5 h-[250px] mx-auto border-solid border-2 border-[#b9e4ed] rounded-3xl shadow-xl">
-          <p className=" pt-[65px] text-6xl text-center">
-            {isFinished ? "" : inputWord}
+        <div className="absolute ml-[10%] mt-[50px] w-4/5 h-[250px] border-solid border-2 border-[#b9e4ed] rounded-3xl shadow-xl z-0">
+          <p
+            className={
+              isFinished
+                ? "text-center text-3xl pt-[100px] animate-poyopoyo"
+                : "pt-[65px] text-6xl text-center"
+            }
+          >
+            {isFinished ? "Press Space Key to Retry" : inputWord}
           </p>
         </div>
       </div>
