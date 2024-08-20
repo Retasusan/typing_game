@@ -8,8 +8,10 @@ export default function Home() {
     <main>
       <div className="bg-gradient-to-b from-[#e3f3f9] to-[#58d0fc] h-[1000px] min-w-[600px]">
         <Header />
-        <div className="w-4/5 h-[600px] pt-[50px] mx-auto justify-center items-center text-centerborder-none max-w-[1000px] min-w-[600px] shadow-xl bg-white rounded-2xl">
-          <div className={`${font.className} mt-5 text-5xl text-center`}>
+        <div className="w-4/5 h-[600px] mx-auto justify-center items-center text-centerborder-none max-w-[1000px] min-w-[600px] shadow-xl bg-white rounded-2xl">
+          <div
+            className={`${font.className} mt-[125px] pt-20 text-5xl text-center mb-20`}
+          >
             GAME MODE
           </div>
           <div className="flex flex-col gap-10 mt-10">
