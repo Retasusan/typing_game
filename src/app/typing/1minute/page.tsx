@@ -10,7 +10,7 @@ export default function Home() {
     <main>
       <div className="bg-gradient-to-b from-[#e3f3f9] to-[#58d0fc] h-[1000px] min-w-[600px]">
         <Header />
-        <TypingGame time={4} />
+        <TypingGame time={60} />
       </div>
       <Footer />
     </main>
